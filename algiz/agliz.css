@@ -1,0 +1,78 @@
+/*
+color pallet:
+#50655B olive green
+#53DFD1 blue green
+#0F1E64 navy blue
+#1C9B8E blue green
+#040404 Rich Black FOGRA 39
+#4E5340 Rifle Green
+#0D00A4 Duke Blue
+#6EFAFB Electric Blue
+#0091AD Blue Munsell
+#312F2F Jet
+#EDF2F4 Alice Blue
+*/
+
+
+html {
+    background-color: #312F2f;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #040404;
+  }
+  .active {
+    background-color: #6EFAFB;
+    color: #040404;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #EDF2F4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  h1{
+    color: #EDF2F4;
+    font-family: arial;
+  }
+  h2{
+    color: #EDF2F4;
+    font-family: arial;
+  }
+  .margin{
+    width: 50% ;
+    border: 3px solid #6EFAFB;
+    padding: 50px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  img {
+    max-width: 100%
+  }
+  .image {
+    flex-basis: 40%
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
